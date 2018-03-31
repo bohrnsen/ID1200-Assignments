@@ -26,6 +26,7 @@ int main() {
 
 	while(count!=4){
 	}
+
 	printf("I've had enough!\n");
 	return(0);
 }
