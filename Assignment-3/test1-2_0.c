@@ -11,9 +11,9 @@ void handler(int sig) {
 
 int main() {
 	struct sigaction sa;
-	
+
 	int pid = getpid();
-	
+
 	printf("ok, let's go, kill me (%d) if you can!\n", pid);
 
 	sa.sa_handler = handler;
@@ -26,7 +26,7 @@ int main() {
 
 	while(count!=4){
 	}
+
 	printf("I've had enough!\n");
 	return(0);
-
 }

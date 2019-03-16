@@ -11,9 +11,9 @@ void *malloc(size_t size) {
 		return NULL;
 	} else {
 		return memory;
-	}
-	
+	}	
 }
+
 void free(void *memory){
 	return;
 }

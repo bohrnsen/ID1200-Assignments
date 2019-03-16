@@ -1,2 +1,3 @@
 *.out
 zombie
+.DS_Store
